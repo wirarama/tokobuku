@@ -1,0 +1,21 @@
+Options +FollowSymLinks -Indexes
+
+RewriteEngine On
+
+RewriteRule ^([a-zA-Z0-9_-]+)$ index.php?p=$1
+RewriteRule ^([a-zA-Z0-9_-]+)/$ index.php?p=$1
+
+RewriteRule ^([a-zA-Z0-9_-]+)/list$ index.php?p=$1_list
+RewriteRule ^([a-zA-Z0-9_-]+)/list/$ index.php?p=$1_list
+
+RewriteRule ^([a-zA-Z0-9_-]+)/add$ index.php?p=$1_add
+RewriteRule ^([a-zA-Z0-9_-]+)/add/$ index.php?p=$1_add
+
+RewriteRule ^([a-zA-Z0-9_-]+)/edit/([0-9]+)$ index.php?p=$1_edit&edit=$2
+RewriteRule ^([a-zA-Z0-9_-]+)/edit/([0-9]+)/$ index.php?p=$1_edit&edit=$2
+
+RewriteRule ^([a-zA-Z0-9_-]+)/delete/([0-9]+)$ index.php?p=$1_delete&$1delete=$2
+RewriteRule ^([a-zA-Z0-9_-]+)/delete/([0-9]+)/$ index.php?p=$1_delete&$1delete=$2
+
+RewriteRule ^([a-zA-Z0-9_-]+)/detail/([0-9]+)$ index.php?p=$1_detail&detail=$2
+RewriteRule ^([a-zA-Z0-9_-]+)/detail/([0-9]+)/$ index.php?p=$1_detail&detail=$2

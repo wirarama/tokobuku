@@ -1,0 +1,152 @@
+body{
+	font-size: 12px;
+	font-family: sans,arial,hervetica;
+	margin:0px;
+	padding:0px;
+	background-color:#f9b634;
+	background-image: url(../gambar/bg.jpg);
+	background-repeat:repeat-x;
+}
+td,th{
+	font-size: 12px;
+	font-family: sans,arial,hervetica;
+	margin:0px;
+	padding:0px;
+}
+#utama{
+	width:900px;
+	min-height:400px;
+	background-color:#CCC;
+}
+#kepala{
+	height:286px;
+	background-image: url(../gambar/head.jpg);
+	background-repeat:no-repeat;
+}
+#kepala h1{
+	text-align:left;
+	margin:0px;
+	padding:50px 0px 0px 180px;
+	color:#531e07;
+	letter-spacing:8px;
+}
+#kepala h2{
+	text-align:left;
+	margin:0px;
+	padding:0px 0px 0px 180px;
+	color:#d75724;
+	letter-spacing:6px;
+}
+h3{
+	text-transform:capitalize;
+}
+ul,li{
+	margin:0px;
+	padding:0px;
+}
+input,textarea{
+	border:1px solid #BBB;
+	margin-bottom:5px;
+}
+#nav{
+	padding:120px 0px 0px 100px;
+}
+#nav a li{
+	padding:10px;
+	margin:5px;
+	/*border:1px solid #CCC;*/
+	list-style:none;
+	float:left;
+	font-size:16px;
+	/*background-color:#EEE;*/
+}
+#nav a:link,#nav a:visited,#nav a:active{
+	text-decoration:none;
+	font-weight:bold;
+	color:#f93d34;
+}
+#nav a:hover{
+	color:#7e0e08;
+}
+#konten{
+	text-align:left;
+	margin:0px;
+	padding:40px;
+	background-image: url(../gambar/body.jpg);
+	background-repeat:repeat-y;
+	padding:20px 100px 20px 100px;
+}
+#konten p{
+	line-height:20px;
+}
+#konten h3{
+	margin:0px;
+	padding:10px 0px 0px 0px;
+	font-size: 16px;
+}
+#loading{
+	display:none;
+}
+#daftarorang{
+	padding:10px;
+	margin:0px 0px 20px 0px;
+	border:1px solid #BBB;
+	clear:both;
+}
+#daftarorang #orang{
+	padding:10px;
+	margin:5px;
+	border:1px solid #CCC;
+}
+#kredit{
+	height:104px;
+	background-image: url(../gambar/bottom.jpg);
+	background-repeat:no-repeat;
+}
+#kredit h5{
+	margin:0px;
+	padding:40px 0px 0px 0px;
+}
+table{
+	background-color:#CCC;
+	margin:5px;
+}
+td{
+	background-color:#FFF;
+	padding:5px;
+}
+th{
+	background-color:#DDD;
+	padding:5px;
+}
+#kontak{
+	border:1px solid #CCC;
+	padding:10px;
+	margin:5px;
+}
+#kontak #nama{
+	font-weight:bold;
+}
+#kontak #tanggal{
+	font-size:10px;
+}
+#produk{
+	border:1px solid #CCC;
+	padding:5px;
+	margin:5px;
+	float:left;
+	text-align:center;
+	min-width:150px;
+	background-color:#DDD;
+}
+#produk img{
+	border:1px solid #CCC;
+}
+#produkdetail{
+}
+#produkdetail #nama,#produk #nama{
+	font-weight:bold;
+}
+#produkdetail img{
+	border:1px solid #CCC;
+}
